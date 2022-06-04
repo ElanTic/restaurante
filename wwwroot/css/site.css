@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+.logo-image {
+    overflow: hidden;
+}
+@font-face {
+    font-family: 'fuenteZ';
+    src: url("/fuentes/HyliaSerifBeta-Regular.otf") format("opentype");
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'fuenteZ';
+}
+a {
+    text-transform: uppercase;
+    font-family: 'fuenteZ';
+    color = @00CC00;
+} 
+@font-face {
+    font-family: 'fuenteSNes';
+    src: url("/fuentes/ReturnofGanon.ttf") format("opentype");
+}
+* {
+    font-family: 'fuenteSNes';
+}
